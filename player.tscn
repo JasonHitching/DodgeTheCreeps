@@ -1,5 +1,6 @@
-[gd_scene load_steps=7 format=3 uid="uid://d08swjtw6jiy8"]
+[gd_scene load_steps=8 format=3 uid="uid://d08swjtw6jiy8"]
 
+[ext_resource type="Script" path="res://Player.cs" id="1_mnuyh"]
 [ext_resource type="Texture2D" uid="uid://0bc6086th87" path="res://art/playerGrey_up1.png" id="1_vgh0c"]
 [ext_resource type="Texture2D" uid="uid://bi561ma8ugfr6" path="res://art/playerGrey_up2.png" id="2_ersgc"]
 [ext_resource type="Texture2D" uid="uid://bwekn4uvgfs18" path="res://art/playerGrey_walk1.png" id="3_xojvj"]
@@ -36,6 +37,7 @@ height = 136.0
 
 [node name="Player" type="Area2D"]
 position = Vector2(207, 298)
+script = ExtResource("1_mnuyh")
 metadata/_edit_group_ = true
 
 [node name="AnimatedSprite2D" type="AnimatedSprite2D" parent="."]
